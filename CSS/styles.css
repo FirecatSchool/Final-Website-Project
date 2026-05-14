@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 1.0;
     color: black;
-    background-color: #FFFFFF;
+    background-color: rgb(180, 255, 182);
 }
 
 img {
@@ -26,7 +26,14 @@ ul {
     list-style: none;
 }
 
+h1 {
+    padding: 1rem;
+}
 
+p {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
 
 
  */
@@ -42,7 +49,7 @@ ul {
 
 .navbar {
     
-    background-color: rgb(1, 0, 59);
+    background-color: rgb(159, 180, 181);
     
     padding: 15px 0;
     
@@ -207,7 +214,7 @@ ul {
 
 .btn-primary {
     
-    background-color: lightblue;
+    background-color: rgb(220, 173, 230);
     
     color: rgb(255, 255, 255);
     
@@ -216,7 +223,7 @@ ul {
 
 .btn-primary:hover {
     
-    background-color: lightskyblue;
+    background-color: rgb(200, 135, 250);
     color: rgb(187, 187, 187);
     
     transform: translateY(-2px);
@@ -224,12 +231,12 @@ ul {
 }
 
 .btn-secondary {
-    background-color: navy;
+    background-color: rgb(199, 66, 168);
     color: white;
 }
 
 .btn-secondary:hover {
-    background-color: rgb(2, 2, 193);
+    background-color: rgb(193, 2, 152);
     
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -271,7 +278,7 @@ ul {
 
 .card {
     
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(234, 190, 255);
    
     border-radius: 10px;
     
@@ -323,4 +330,20 @@ ul {
     margin-bottom: 1.5rem;
     
     line-height: 1.6;
+}
+
+.security {
+    display: inline-block;
+   
+    padding: 12px 30px;
+    
+    font-size: 1rem;
+    
+    border: none;
+    
+    border-radius: 5px;
+
+    background-color: rgb(240, 166, 255);   
+   
+    border-radius: 10px;
 }
