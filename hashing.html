@@ -9,10 +9,98 @@
 </head>
 <body>
 <h1 style="margin-left: 32%;">Password hashing and salting:</h1>
-<p style="margin-left: 36%;">Passwords should never be stored as plain text.</p> <br>
-<p style="margin-left: 35%;">The most common safe storage method is hashing.</p>
+<p style="margin-left: 32%;">Passwords should never be stored as plain text.</p> <br>
+<p style="margin-left: 32%;">The most common safe storage method is hashing.</p>
+<img style="margin-left: 32%;" src="Images/hash1.png" width="400">
+        <!-- CARD 1 -->
+                
+                <div class="card">
+                    
+                     
+                    
+                    
+                    
+                    <div class="card-content">
+                        
+                        <h3>What is hashing?</h3>
+                        <h4>One way conversion</h4>
+                        
+                        
+                        <p>A mathmatical function converts a Password into a fixed length string called a hash. It is one way and the original password cannot be recovered from the hash.</p>
 
-        
+                        
+                        
+                        
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                
+                <div class="card">
+                    
+                     
+                    
+                    
+                    
+                    <div class="card-content">
+                        
+                        <h3>Rainbow tables</h3>
+                        <h4>Attack method</h4>
+                        
+                        
+                        <p>A massive precomputed file of hash values for every possible password. attackers look up a stolen hash to instantly find the matching password.</p>
+
+                        
+                        
+                        
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                
+                <div class="card">
+                    
+                     
+                    
+                    
+                    
+                    <div class="card-content">
+                        
+                        <h3>Salting</h3>
+                        <h4>Defense method</h4>
+                        
+                        
+                        <p>A unique random string is added to each password before hashing, even identical passwrods produce different hashes, completely defeating Rainbow tables lookups.</p>
+
+                        
+                        
+                        
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                
+                <div class="card">
+                    
+                     
+                    
+                    
+                    
+                    <div class="card-content">
+                        
+                        <h3>Pass-the-hash</h3>
+                        <h4>advanced attack</h4>
+                        
+                        
+                        <p>The attacker steals the hash directly from storage, and uses it to authenticate - without ever knowing the original password.</p>
+
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div style="margin-left: 32%;" class="security">
+                <h2>Where are passwords stored?:</h2>
+                <p>In the sam registry hive.</p>
+
+    </div>
     
 </body>
 </html>
