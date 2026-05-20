@@ -8,21 +8,39 @@
     <link rel="icon" href="Images/shieldBlueprint.png">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            
+            <div class="nav-brand">CyberSecurity Fundimentals</div>
+            
+            
+            <ul class="nav-menu">
+                <li><a href="index.html">CIA Triad</a></li>
+                <li><a target="" href="datastates.html">Data States</a></li>
+                <li><a href="aaa.html">Auth (AAA)</a></li>
+                <li><a href="pass.html">Passwords</a></li>
+                <li><a href="hashing.html">Hashing</a></li>
+                <li><a href="auth.html">Auth Methods</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+    </nav>
     <h1 style="margin-left: 32%;">Password hashing and salting:</h1>
     <p style="margin-left: 32%;">Passwords should never be stored as plain text.</p> <br>
     <p style="margin-left: 32%;">The most common safe storage method is hashing.</p>
     <img style="margin-left: 32%;" src="Images/hash1.png" width="400">
     
 
-        <section class="hash-steps">
+        <section class="hash-steps" style="padding-left: 460px; padding-top: 10px;">
             <!-- Plain Text Password-->
             <div>
-                <div>
-
+                <div class="hash-border">
+                    <p style="padding-left: 10px; padding-top: 10px;">Pa$$word123</p>
                 </div>
 
                 <div>
-
+                    <p>Plain Text Password</p>
                 </div>
             </div>
             
@@ -33,11 +51,11 @@
 
             <!-- Hashing Function -->
             <div>
-                <div>
-
+                <div class="hash-border">
+<p style="padding-left: 10px; padding-top: 10px; background-color: rgb(255, 138, 247);">SHA-256 <br> Algorithm</p>
                 </div>
 
-                <div></div>
+                <div>Hashing Function</div>
             </div>
 
             <!-- Arrow -->
@@ -46,12 +64,12 @@
             </div>
             <!--STORED HASH -->
             <div>
-                <div>
-
+                <div class="hash-border">
+<p style="padding-left: 10px; padding-top: 10px;">e52cac67419a9a5f4dcc3b5aa765d6...</p>
                 </div>
 
                 <div>
-
+Stored Hash
                 </div>
             </div>
 
@@ -61,8 +79,8 @@
             </div>
             <!-- LOGIN COMPARISON -->
             <div>
-                <div>
-
+                <div class="hash-border">
+<p style="padding-left: 10px; padding-top: 10px;">Hashes Match &#9989; <br><br> Access Granted</p>
                 </div>
 
                 <div>
@@ -159,6 +177,18 @@
                 <p>In the sam registry hive.</p>
 
     </div>
+    <Footer style="background-color: rgb(112, 171, 148);">
+<h2 style="padding-top: 10px;">&#128274;CyberSecure Fundimentals</h2>
+<P>CIA Triad & Authentication</P>
+<p>Computer and Information Science</p>
+<p>Content based on the NIST cybersecurity Framework</p>
+<br>
+<br>
+<h3>NIST CyberFramework &bull; HaveIBeenPwned</h3>
+<p>Images created by gamma.app & Google Gemini</p>
+<p>&COPY; 2025 CyberSecure Fundimentals - All Rights Reserved</p>
+
+    </Footer>
     
 </body>
 </html>

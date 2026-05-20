@@ -49,7 +49,7 @@ p {
 
 .navbar {
     
-    background-color: rgb(195, 255, 178);
+    background-color: rgb(255, 178, 238);
     
     padding: 15px 0;
     
@@ -349,4 +349,11 @@ p {
     background-color: rgb(240, 166, 255);   
    
     border-radius: 10px;
+}
+
+.hash-border {
+    border: 2px solid rgb(255, 138, 247);
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: rgb(255, 239, 252);
 }
